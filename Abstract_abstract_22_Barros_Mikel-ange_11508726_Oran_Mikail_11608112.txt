@@ -1,0 +1,27 @@
+	Reconstruction d'animation 3D de rivières à partir de l'analyse d'une vidéo
+
+	Alors que les jeux vidéo et films d'animation deviennent de plus en plus réalistes, 
+la création d'environnement devient de plus en plus coûteuse et difficile. La recherche 
+dans ce domaine tend donc à trouver des méthodes pour générer automatiquement ce type 
+d'environnement de manière rapide et fiable. L'objectif de notre projet consiste à créer un
+modèle géométrique animé à partir d'une capture vidéo représentant l’écoulement d’une rivière. 
+Le travail consiste à extraire les multiples informations de la rivière (vitesse de l’écoulement,
+turbulence, …) nécessaires à la reconstruction de la rivière dans un environnement 3D. Afin de 
+parvenir à ce résultat, nous avons réalisé entièrement un logiciel découpé en 2 parties.
+
+	La première partie permet de segmenter les zones de rivières en analysant le comportement 
+de différents points ou groupes de points se déplaçant ou pas sur une vidéo.
+
+La deuxième partie consiste au découpage de la rivière en cluster, à l'extraction des données de 
+chacun des clusters et à la modélisation à partir de ces données.
+
+	Dans l'état actuel de notre logiciel, nous parvenons à extraire une rivière de l'image, 
+à extraire des données pour chaque zone de la rivière et à réaliser un modèle simple et animé de 
+la rivière en 3D.
+
+	L'objectif principal de ce projet était d'apporter une méthode d'extraction de données 
+depuis une vidéo efficace et permettant la modélisation de rivières réalistes dans un environnement
+ 3D. Etant donné les résultats obtenus, nous pouvons dire que cet objectif a été atteint. Cependant,
+ dans l'état actuel de l'application, son usage dans un contexte professionnel est fortement improbable.
+
+Mots clés : analyse, animation 3D, rivières, vidéo
